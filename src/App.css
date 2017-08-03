@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img.github-user__avatar {
+  border-radius: 50%;
+  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+}
+
+div.github-user {
+  border-radius: 25px;
+  border: 1px solid black;
+  margin: 5%;
+  display: flex;
+}
+
+div.github-user__info {
+  text-align: left;
+}
+
+.github-user__avatar:hover {
+  filter: saturate(180%);
+}
+
+#username {
+  font-weight: 800;
+}
+
+
